@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="utf-8"?>
+<objects>
+  <object Name="BaseMambele" Inherits="MeleeWeapon">
+    <tag Name="Mods " Value="AxeMods,BladeMods,WeaponMods,CommonMods" />
+    <part Name="Physics" Weight="5" />
+    <part Name="Render" Tile="items/mambele.png" DetailColor="W" />
+    <part Name="Examiner" AlternateDisplayName="mambele" />
+    <tag Name="BaseObject" Value="Noinherit" />
+  </object>
+
+  <object Name="Bronze Mambele" Inherits="BaseMambele">
+    <part Name="Render" DisplayName="&amp;wbronze&amp;y bronze mambele" ColorString="&amp;w" TileColor="&amp;y" RenderString="\"></part>
+    <part Name="MeleeWeapon" Renderstring="\" MaxStrengthBonus="1" BaseDamage="1d2" Skill="Axe" />
+    <part Name="Commerce" Value="3"></part>
+    <part Name="Description" Short="A wooden shaft with a leather hand hold, topped with curved metal blade and a rearward spike."></part>
+    <part Name="Metal"></part>
+    <tag Name="Tier" Value="0"></tag>
+  </object>
+  <object Name="Iron Mambele" Inherits="Basemambele">
+    <part Name="Render" DisplayName="&amp;wbronze&amp;y bronze mambele" ColorString="&amp;w" TileColor="&amp;y" RenderString="\"></part>
+    <part Name="Meleeweapon" RenderString="\" MaxStrengthBonus="2" BaseDamage="1d3+1" Skill="Axe"/>
+    <part Name="Commerce" Value="3"></part>
+    <part Name="Description" Short="A long curved blade with rearward spikes. A deadly weapon in talented hands. "></part>
+    <part Name="Metal"></part>
+    <tag Name="Tier" Value="1"></tag>
+  </object>
+  <object Name=" Engraved Steel Mambele" Inherits="BaseAxe">
+    <part Name="Render" DisplayName="&amp;YSteel&amp;y engraved mambele" ColorString="&amp;Y" Renderstring="\"></part>
+    <part Name="Meleeweapon" RenderString="\" MaxStrengthBonus="3" BaseDamage="1d3+2" Skill="Axe"/>
+    <part Name="Commerce" Value="30"></part>
+    <part Name="Description" Short="An ornate wooden pommel, topped with a sharp steel blade, and beautiful engravings."></part>
+    <part Name="Metal"></part>
+    <tag Name="Tier" Value="2"></tag>
+  </object>
+  <object Name="Carbide Mambele" Inherits="BaseAaxe"
+    <part Name="Render" DisplayName="&amp;bcarbide&amp;y mambele" Colorstring="&amp;b" RenderString="\"></part>
+    <part Name="Meleeweapon" RenderString="\" MaxStrengthBonus="4" BaseDamage="1d4+1" Skill="Axe" />
+    <part Name="Commerce" Value="55"></part>
+    <part Name="Description" Short="A strong cresent blade of grey-blue metal with rearward spikes, bound to a leather wrapped wooden shaft."></part>
+    <part Name="Metal"></part>
+    <tag Name="Tier" Value="3"></tag>
+    <part Name="Physics" Weight="11"></part>
+    </object>
+    </objects>  
